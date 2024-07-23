@@ -463,9 +463,9 @@ function drawInstructions(){
   
   translate(25,0)
   fill(255)                
-  rect(0,0,textWidth(" Instruções: Pressione > ou < (seta esquerda e direita do teclado) para navegar entre os grupos. "),16)
+  rect(0,0,textWidth(" Pressione > ou < (seta esquerda e direita do teclado) para navegar entre os grupos. "),16)
   fill(0)
-  text(" Instruções: Pressione > ou < (seta esquerda e direita do teclado) para navegar entre os grupos.",0,0)
+  text(" Pressione > ou < (seta esquerda e direita do teclado) para navegar entre os grupos.",0,0)
   pop()
 }
 
