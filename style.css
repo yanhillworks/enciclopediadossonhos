@@ -1,0 +1,129 @@
+/* Resetting defaults */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Base styles */
+html {
+  background-color: #eeeeee;
+}
+body {
+  font-family: "Karla", sans-serif;
+  color: aliceblue;
+}
+
+/* Heading and paragraph styles */
+h1,
+p {
+  text-align: left;
+}
+
+h1 {
+  font-optical-sizing: auto;
+  font-weight: 700;
+  margin-bottom: 0;
+  line-height: 1.4;
+  font-style: normal;
+}
+
+.titulo-subtitulo {
+background-color: 0;
+color: rgb(255,255,255);
+padding-left: 25px;
+padding-bottom: 15px;
+padding-top: 25;
+align-items: flex-start;
+display: flex;
+}
+
+.subtitulo,
+.description-title {
+  font-weight: 400;
+  margin-bottom: 0px;
+margin-left: 15;
+margin-top: 0;
+width: 860;
+font-weight: 100;
+}
+
+.description-title {
+}
+
+.art-description {
+  margin-bottom: 200px;
+  margin-top: 40px;
+}
+
+/* Canvas styles */
+canvas {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+#canvasp {
+  overflow-x: auto;
+  width: 100vw;
+}
+
+/* Art description */
+#artDescription {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+#artDescription .text-paragraph {
+  font-size: 16px;
+line-height: 1.7;
+}
+
+/* Global styles */
+* {
+  box-sizing: border-box;
+  -webkit-print-color-adjust: exact;
+  white-space: normal;
+  line-height: 1.4;
+font-size: 16px;
+
+font-family: "Karla", sans-serif;
+font-optical-sizing: auto;
+font-weight: 100;
+font-style: normal;
+}
+
+/* Media query */
+@media only screen {
+  body {
+    color: rgb(55, 53, 47);
+  }
+}
+
+/* Additional properties */
+p {
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
+  font-size: 1.3em;
+  font-weight: 400;
+  max-width: 600px;
+}
+.static {
+  display: block;
+  float: none;
+  position: static;
+  z-index: auto;
+}
+
+#pageTitle {
+  margin-top: 0px;
+  }
+
+  div.meunome:nth-child(1) {
+    background-color: 0;
+    color: rgb(255,255,255);
+    padding-left: 25px;
+    }
+
+    .page-title{
+      font-weight: 700;
+    }
